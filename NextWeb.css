@@ -1,0 +1,46 @@
+
+ol,
+ul{
+
+list-style: none;
+}
+
+.c-nav {
+
+position: relative;
+height: 3rem;
+background-color: black;
+
+}
+
+.nav-logo{
+
+display: flex;
+left: 0;
+position: absolute;
+width: 3em;
+
+}
+
+.c-nav_menuContainer{
+
+z-index: 100;
+
+}
+
+
+
+.c-nav_menu{
+
+display: flex;
+justify-content: center;
+
+}
+
+.c-nav__menuItem,
+li{
+
+    color:darkgray;
+    display: list-item;
+    font-size: larger;
+}
