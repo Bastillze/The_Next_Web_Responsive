@@ -3,13 +3,16 @@ ol,
 ul{
 
 list-style: none;
+
 }
 
 .c-nav {
 
-position: relative;
-height: 3rem;
-background-color: black;
+position: absolute;
+z-index: 50;
+width: 100%;
+background-color: whitesmoke;
+box-shadow: 0 0 48px;
 
 }
 
@@ -19,6 +22,7 @@ display: flex;
 left: 0;
 position: absolute;
 width: 3em;
+
 
 }
 
@@ -40,7 +44,134 @@ justify-content: center;
 .c-nav__menuItem,
 li{
 
-    color:darkgray;
-    display: list-item;
-    font-size: larger;
+color:black;
+display: list-item;
+font-size: larger;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+}
+
+.c-nav__menuItem__has_menu{
+
+position: relative;
+
+}
+
+.c-nav_iconItem{
+
+position: absolute;
+display: flex;
+z-index: 90;
+top: 0;
+
+
+}
+
+.c-nav_Icon
+{
+position: absolute;
+
+}
+
+.o-page{
+
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background-color:gold;
+
+}
+
+.o-wrapper{
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+max-width: 80rem;
+position: relative;
+background-color: green;
+
+
+}
+
+.c-sectionHeader{
+
+    margin-bottom: 2rem;
+    max-width: 25%;
+    height: auto;
+    padding: 1em;
+    background-color:indianred;
+
+}
+
+
+
+
+@media (min-width: 1024px){
+
+.c-nav{
+
+position: sticky;
+top: 2rem;
+height: 3rem;
+
+}
+
+
+.c-nav_iconItem{
+
+    right: 0;
+
+    }
+
+
+
+.c-showcase_header{
+
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    width: 80%;
+
+
+}
+
+.c-brandIntro{
+
+display: block;
+margin-top: 3%;
+margin-bottom: 2rem;
+font-size: 32px;
+
+}
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 768px){
+
+    .c-nav_iconItem{
+
+        right: 0;
+    
+        }
+
+
+
+
+.o-wrapper{
+
+padding-left: 4rem;
+padding-right: 4rem;
+
+}
+
 }
