@@ -386,10 +386,169 @@ height: 2rem;
 .partner{
 
 padding: 6em 0 2em;
+background-color:forestgreen;
+
+
+}
+
+.p-wrapper{
+
+margin-left: auto;
+margin-right: auto;
+padding-left: 4rem;
+padding-right: 4rem;
+max-width: 80rem;
+position: relative;
+
+}
+
+
+.p-grid{
+
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+.p-grid_col{
+
+flex-grow: 0;
+flex-shrink: 0;
+border: 0 solid
+
+
+}
+
+
+.p-showcase_header{
+
+width: 100%;
+margin-bottom: 3rem;
+padding-right: 0;
+
+
+}
+
+.p-sectionHeader{
+
+text-align: left;
+display: block;
+
+
+}
+
+
+.p-subHeading{
+
+font-family: Shentox, sans-serif;
+letter-spacing: .08em;
+line-height: 1;
+text-transform: uppercase;
+
+
+}
+
+
+.p-mainHeading{
+
+text-align: left;
+flex: 1 1 0%;
+font-family: sans-serif;
+font-weight: 500;
+letter-spacing: -.025em;
+line-height: 1;
+text-transform: none;
+
+
+}
+
+
+
+
+
+.intro{
+
+font-size: 1.125rem;
+margin-top: 1.5rem;
+
+
+}
+
+
+.p-button--primary button{
+
+display: inline-block;
+position: relative;
+cursor: pointer;
+color:magenta;
+user-select: none;
+height: 3rem;
+vertical-align: middle;
+font-weight: 500;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+border-style: none;
+border-radius: .25rem;
+transition-duration: .1s;
+font-variant-ligatures: none;
+font-size: 13px;
+letter-spacing: 0.25em;
+line-height: 48px;
+
+
+}
+
+
+
+
+.p-grid_colTwo{
+
+flex-grow: 0;
+flex-shrink: 0;
+border: 0 solid;
 
 
 
 }
+
+
+.partnerGrid{
+
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 0;
+        
+}
+
+
+.partnerTypeGrid{
+
+display: flex;
+align-items: center;
+text-align: center;
+
+
+}
+
+
+.companies{
+
+
+padding-left: 2rem;
+padding-right: 2rem;
+margin-left: auto;
+margin-right: auto;
+max-width: 80rem;
+position: relative;
+
+
+}
+
 
 
 
@@ -453,6 +612,19 @@ background-color:chocolate;
 }
     
 
+.p-grid{
+
+margin: -.75rem;
+
+
+}
+
+.p-mainHeading{
+
+margin-bottom: 4rem!important;
+
+
+}
 
 
 
@@ -508,7 +680,45 @@ flex-grow: 1;
 }
 
 
+.p-grid{
 
+margin: .5rem;
+
+}
+
+.p-mainHeading{
+
+        margin-bottom: 3rem!important;
+        font-size: 2.5rem!important;
+        
+        
+        }
+
+
+.p-grid_colTwo{
+
+flex-basis: 50%;
+max-width: 50%;
+                              
+}
+
+.partnerGrid{
+
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 0;
+
+}
+
+.partnerTypeGrid{
+
+display: flex;
+align-items: center;
+text-align: center;
+flex-direction: row;
+        
+        
+        }
 
 
 }
