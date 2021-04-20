@@ -278,7 +278,10 @@ padding-bottom: 7rem!important;
 .g-wrapper{
 
 padding-left: 2rem;
-padding-right: 2rem;;
+padding-right: 2rem;
+margin-right: auto;
+max-width: 80rem;
+position: relative;
 
 
 }
@@ -287,6 +290,7 @@ padding-right: 2rem;;
 .T-heading{
 
 color:cornsilk;
+text-align: left;
 
 }
 
@@ -296,6 +300,93 @@ color:cornsilk;
 margin-left: 0;
 margin-right: 0;
 display: flex;
+
+
+}
+
+
+.T-media{
+
+display: block;
+position: relative;
+height: 0;
+overflow: hidden;
+
+}
+
+.mainStageHeader{
+
+display: flex;
+border-color:#24262c;
+--border-opacity:1;
+border-top: 1px rgba(36,38,44,var(--border-opacity));
+border-style: solid;
+
+
+}
+
+#videoStageTitle{
+
+margin: 0;
+font-size: 1.125rem;
+font-family: Graphik, sans-serif;
+text-transform: none;
+line-height: 1.75;
+font-weight: 500;
+color:cornsilk;
+
+
+
+}
+
+
+.T-playList{
+
+position: relative;
+padding: 0;
+width: calc(224px + 1.5rem);
+
+
+
+}
+
+
+.T-scroller{
+
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 10;
+flex-direction: column;
+overflow-x: auto;
+overflow-y: scroll;
+
+}
+
+
+
+.T-scrollerFade{
+
+
+display: block;
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 20;
+height: 2rem;
+
+
+
+}
+
+
+.partner{
+
+padding: 6em 0 2em;
+
 
 
 }
@@ -399,14 +490,23 @@ padding-bottom: 6rem!important;
 .articleGrid{
 
 display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-        grid-gap: 0px;
-        margin: -.25rem;
-        background-color:darkorchid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+grid-gap: 0px;
+margin: -.25rem;
+background-color:darkorchid;
         
         
         }
+
+
+.mainStage{
+
+flex-grow: 1;
+                
+                
+}
+
 
 
 
