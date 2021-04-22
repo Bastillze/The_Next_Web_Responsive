@@ -546,11 +546,160 @@ margin-right: auto;
 max-width: 80rem;
 position: relative;
 
+}
+
+
+
+
+.companyGrid{
+
+margin: -.25rem;
+display: flex;
+flex-wrap: wrap;
+flex-grow: 0;
+flex-shrink: 0;
+border: 0 solid;
+background-color:darkblue;
+
+
+}
+
+
+.companyLogo{
+
+flex-basis: 12.5%;
+max-width: 12.5%;
+
+
+
 
 }
 
 
 
+
+.footer{
+
+z-index: 3;
+padding: 4rem;
+--bg-opacity: 1;
+position: relative;
+background-color: black;
+
+}
+
+
+.footWrapper{
+
+margin-left: auto;
+margin-right: auto;
+padding-left: 2rem;
+padding-right: 2rem;
+max-width: 80rem;
+position: relative;
+
+
+}
+
+
+
+.footerGrid{
+
+
+display: flex;
+margin: -.75rem;
+
+
+}
+
+
+.firstGrid{
+
+border-width: .75rem;
+flex-basis: 50%;
+float: left;
+max-width: 50%;
+flex-grow: 0;
+flex-shrink: 0;
+border: 0 solid;
+
+
+}
+
+.logoContact{
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+
+}
+
+
+
+.footer_logo{
+
+display: block;
+width: 10rem;
+margin-bottom: 1rem;
+
+}
+
+
+.footer_tagLine{
+
+display: inline-block;       
+margin-bottom: 2rem;
+font-size: 1.5rem;
+color:cornsilk;
+}
+
+
+.footer,
+.footer_item{
+
+display: flex;
+margin-bottom: .5rem;
+
+}
+
+
+
+.secondGrid{
+
+padding-left: 0;
+flex-basis: 25%;
+max-width: 35%;
+
+
+}
+
+
+.footer_heading{
+
+margin-bottom: .5rem;
+font-size: 1.5rem;
+color: cornsilk;
+
+}
+
+.footer_link{
+
+color: #0cc;
+text-decoration: none;
+
+}
+
+
+
+.thirdGrid{
+
+
+flex-basis: 25%;
+max-width: 25%;
+
+
+}
 
 
 @media (min-width: 1024px){
