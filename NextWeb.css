@@ -216,6 +216,18 @@ background-color:darkorchid;
 }
 
 
+.o-gridItem{
+
+flex-grow: 0;
+flex-shrink: 0;
+border: 0 solid;
+
+
+}
+
+
+
+
 .c-channel{
 
 max-width: 100rem;
@@ -886,6 +898,45 @@ background-color:chocolate;
     
 }
     
+
+.o-gridItem{
+
+flex-basis: 25%;
+max-width: 25%;
+
+
+}
+
+
+.flexi{
+
+flex-basis: 25%;
+
+
+
+}
+
+
+.flexiPic{
+
+display: block;
+position: relative;
+overflow: hidden;
+padding-top: 56.25%;
+
+
+
+}
+
+
+.flexiText{
+
+flex: 1 1 0%;
+
+
+}
+
+
 
 .p-grid{
 
