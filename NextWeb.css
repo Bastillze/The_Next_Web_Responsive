@@ -205,10 +205,8 @@ background-color:crimson;
 
 .articleGrid{
 
-display: grid;
-grid-template-columns: repeat(4,1fr);
-grid-template-rows: repeat(2,1fr);
-grid-gap: 10px;
+display: flex;
+flex-wrap: wrap;
 margin: -.25rem;
 background-color:darkorchid;
 
@@ -218,8 +216,7 @@ background-color:darkorchid;
 
 .o-gridItem{
 
-flex-grow: 0;
-flex-shrink: 0;
+
 border: 0 solid;
 
 
@@ -1146,22 +1143,11 @@ display: grid;
 }
 
 
-.articleGrid{
-
-display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-template-rows: repeat(2,1fr);
-grid-gap: 0px;
-margin: -.25rem;
-background-color:darkorchid;
-        
-        
-        }
 
 
 .o-gridItem{
 
-flex-basis: 50%;
+flex-basis: 25%;
 max-width: 50%;
 
 }
