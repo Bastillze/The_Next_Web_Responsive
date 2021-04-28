@@ -251,8 +251,59 @@ background-color:cornflowerblue;
 }
 
 
+.scrollerItem{
+
+
+flex-basis: calc(20% 1rem);
+margin-right: 1rem;
+flex-grow: 0;
+flex-shrink: 0;
+scroll-snap-align: center;
+
+
+}
+
+
+
+.c-channelShowcaseImage1{
+
+display: block;
+text-align: center;
+padding: 2rem 1rem;
+background-size: cover;
+background-position: 50%;
+background-image:url(Channelpic1.webp);
+height: 100%;
+
+}
+
+
+.c-channelShowcaseImage2{
+
+display: block;
+text-align: center;
+padding: 2rem 1rem;
+background-size: cover;
+background-position: 50%;
+background-image:url(Channelpic2.jpg);
+height: 100%;
+        
+}
+
+
+.channelDescription{
+
+margin-left: auto;
+margin-right: auto;
+font-size: 1rem;
+
+
+}
+
+
 .newsletter{
 
+background-image: url(spacesbg.webp);     
 background-size: cover;
 background-attachment: fixed;
 background-position: 50%;
@@ -478,7 +529,6 @@ flex-wrap: wrap;
 .p-grid_col{
 
 flex-grow: 0;
-flex-shrink: 0;
 border: 0 solid
 
 
@@ -598,6 +648,19 @@ text-align: center;
 
 
 }
+
+
+.media{
+
+
+border-width: 1rem;
+align-items: center;
+flex-direction: row;
+flex-basis: 50%;
+max-width: 50%;
+
+}
+
 
 
 .companies{
@@ -940,7 +1003,9 @@ flex: 1 1 0%;
 
 .p-grid{
 
+display: flex;       
 margin: -.75rem;
+flex-wrap: wrap;
 
 
 }
