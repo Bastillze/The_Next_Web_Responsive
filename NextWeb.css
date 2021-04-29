@@ -223,7 +223,12 @@ border: 0 solid;
 }
 
 
+.leadingText{
 
+text-decoration: none;
+list-style: none;
+
+}
 
 .c-channel{
 
@@ -515,13 +520,10 @@ position: relative;
 }
 
 
-.p-grid{
-
-display: flex;
-flex-wrap: wrap;
 
 
-}
+
+
 
 .p-grid_col{
 
@@ -619,6 +621,7 @@ line-height: 48px;
 
 .p-grid_colTwo{
 
+display: flex;
 flex-grow: 0;
 flex-shrink: 0;
 border: 0 solid;
@@ -628,28 +631,9 @@ border: 0 solid;
 }
 
 
-.partnerGrid{
-
-display: flex;
-flex-wrap: wrap;
-margin-bottom: 0;
-        
-}
-
-
-.partnerTypeGrid{
-
-display: flex;
-align-items: center;
-text-align: center;
-
-
-}
-
-
 .media{
 
-
+display: flex;
 border-width: 1rem;
 align-items: center;
 flex-direction: row;
@@ -659,10 +643,47 @@ max-width: 50%;
 }
 
 
+.events{
+
+display: flex;       
+border-width: 1rem;
+align-items: center;
+flex-direction: row;
+flex-basis: 50%;
+max-width: 50%;
+
+
+}
+
+
+.spaces{
+
+display: flex;       
+border-width: 1rem;
+align-items: center;
+flex-direction: row;
+flex-basis: 50%;
+max-width: 50%;
+
+
+
+}
+
+
+.programs{
+
+display: flex;       
+border-width: 1rem;
+align-items: center;
+flex-direction: row;
+flex-basis: 50%;
+max-width: 50%;
+        
+}
 
 .companies{
 
-
+display: flex;
 padding-left: 2rem;
 padding-right: 2rem;
 margin-left: auto;
@@ -1002,7 +1023,6 @@ flex: 1 1 0%;
 
 display: flex;       
 margin: -.75rem;
-flex-wrap: wrap;
 
 
 }
@@ -1223,6 +1243,7 @@ margin-bottom: 0;
 .partnerTypeGrid{
 
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 text-align: center;
 flex-direction: row;
