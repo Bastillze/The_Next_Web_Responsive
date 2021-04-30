@@ -89,7 +89,7 @@ background-color:gold;
 margin-top: 50px;
 margin-left: auto;
 margin-right: auto;
-max-width: 80rem;
+max-width: 100rem;
 position: relative;
 background-color: green;
 
@@ -156,17 +156,6 @@ max-width: 100%;
 }
 
 
-.topicGrid{
-
-display: grid;
-margin: 1.5rem;
-gap: 1.5rem;
-justify-content: space-around;
-grid-template-columns: repeat(5,1fr);
-grid-template-rows: 1fr;
-
-
-}
 
 
 
@@ -293,6 +282,51 @@ height: 100%;
 }
 
 
+.c-channelShowcaseImage3{
+
+ display: block;
+ text-align: center;
+ padding: 2rem 1rem;
+ background-size: cover;
+background-position: 50%;
+background-image:url(Channelpic3.jpg);
+height: 100%;
+                
+}
+        
+
+.c-channelShowcaseImage4{
+
+display: block;
+text-align: center;
+padding: 2rem 1rem;
+background-size: cover;
+background-position: 50%;
+background-image:url(GrowthQuarters.jpg);
+height: 100%;
+                
+}
+
+
+
+
+
+.c-channelShowcaseImage5{
+
+display: block;
+text-align: center;
+padding: 2rem 1rem;
+background-size: cover;
+background-position: 50%;
+background-image:url(Channelpic5.webp);
+ height: 100%;
+                       
+}
+
+
+
+
+
 .channelDescription{
 
 margin-left: auto;
@@ -384,8 +418,8 @@ padding-bottom: 7rem!important;
 
 .g-wrapper{
 
-padding-left: 2rem;
-padding-right: 2rem;
+padding-left: 12rem;
+padding-right: 5rem;
 margin-right: auto;
 max-width: 80rem;
 position: relative;
@@ -872,7 +906,7 @@ right: 0;
 display: flex;
 align-items: center;
 padding: 2%;
-width: 80%;
+
 
 
 }
