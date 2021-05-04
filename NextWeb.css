@@ -81,7 +81,7 @@ position: absolute;
 display: flex;
 flex-direction: column;
 min-height: 100vh;
-background-color:gold;
+background-color: whitesmoke;
 
 }
 
@@ -91,7 +91,7 @@ margin-left: auto;
 margin-right: auto;
 max-width: 100rem;
 position: relative;
-background-color: green;
+background-color: whitesmoke;
 
 
 }
@@ -102,7 +102,7 @@ margin-bottom: 2rem;
 max-width: 80%;
 height: auto;
 padding: 1em;
-background-color:indianred;
+background-color: none;
 
 }
 .c-brandIntro{
@@ -121,7 +121,7 @@ grid-template-columns: repeat(8,1fr);
 grid-template-rows: repeat(4,144px);   
 padding-left: 2rem;
 padding-right: 2rem;
-background-color:brown;
+background-color:none;
 
 
 }
@@ -144,7 +144,7 @@ grid-template-rows: auto;
 .o-bodyBlock{
 
 padding: 4em 0!important;
-background-color:chartreuse;
+background-color:whitesmoke;
 
 }
 
@@ -172,7 +172,7 @@ margin-left: auto;
 margin-right: auto;
 max-width: 80rem;
 position: relative;
-background-color:chocolate;
+background-color:whitesmoke;
 
 }
 
@@ -188,7 +188,7 @@ flex: 1 1 0%;
 display: flex;
 flex-direction: column;
 margin: 0 0 1em;
-background-color:crimson;
+background-color:whitesmoke;
 
 }
 
@@ -197,7 +197,7 @@ background-color:crimson;
 display: flex;
 flex-wrap: wrap;
 margin: -.25rem;
-background-color:darkorchid;
+background-color:whitesmoke;
 
 
 }
@@ -224,7 +224,7 @@ list-style: none;
 max-width: 100rem;
 padding-left: 2rem;
 padding-right: 2renm;
-background-color:indigo;
+background-color:whitesmoke;
 }
 
 
@@ -409,7 +409,7 @@ border-radius: 0;
 
 display: flex;
 flex-direction: column;
-background-color:darkorchid;
+background-color:whitesmoke;
 padding-top: 7rem!important;
 padding-bottom: 7rem!important;
 
@@ -537,7 +537,7 @@ height: 2rem;
 .partner{
 
 padding: 6em 0 2em;
-background-color:forestgreen;
+background-color:whitesmoke;
 
 
 }
@@ -1009,7 +1009,7 @@ margin-left: auto;
 margin-right: auto;
 max-width: 80rem;
 position: relative;
-background-color:chocolate;
+background-color:whitesmoke;
     
 }
     
